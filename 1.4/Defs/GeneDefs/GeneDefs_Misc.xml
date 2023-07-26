@@ -11,5 +11,11 @@
 		<biostatCpx>4</biostatCpx>
 		<biostatArc>1</biostatArc>
 		<biostatMet>3</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				
+				<hediffToWholeBody>VRE_MindCoalescence</hediffToWholeBody>
+			</li>
+		</modExtensions>
 	</GeneDef>
 </Defs>

@@ -296,10 +296,15 @@
   <ItemGroup>
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="HediffComps\HediffComp_Coalescence.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_Coalescence.cs" />
+    <Compile Include="MapComponents and GameComponents\MapComponent_CoalescenceTracker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_Coalescence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
