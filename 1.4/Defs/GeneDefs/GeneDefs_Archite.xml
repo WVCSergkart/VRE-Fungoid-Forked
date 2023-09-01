@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_MindCoalescence</defName>
+		<label>mind coalescence</label>
+		<labelShortAdj>coalescent</labelShortAdj>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/Gene_MindCoalescence</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<biostatCpx>4</biostatCpx>
+		<biostatArc>1</biostatArc>
+		<biostatMet>3</biostatMet>
+		<customEffectDescriptions>
+			<li>This effect is updated twice a day ingame, to avoid lag.</li>
+		</customEffectDescriptions>
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>VRE_GeneInfector</defName>
+		<label>gene infector</label>
+		
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/Gene_GeneInfector</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<displayOrderInCategory>5001</displayOrderInCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatArc>1</biostatArc>
+		<biostatMet>0</biostatMet>
+		<customEffectDescriptions>
+			<li>Won't affect anyone who already has this gene.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				
+				<hediffsToBodyParts>
+					<li>
+						<hediff>VRE_InfectorHands</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+					</li>
+					<li>
+						<hediff>VRE_InfectorMouth</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+							
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>VRE_Fungoid</defName>
+		<label>fungoid</label>
+		<description>todo.</description>
+		<descriptionShort>todo.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Fungoid</iconPath>
+
+		<inheritable>false</inheritable>
+		<genes>
+			<li>VRE_MindCoalescence</li>
+			<li>VRE_GeneInfector</li>
+			
+
+
+		</genes>
+	</XenotypeDef>
+</Defs>

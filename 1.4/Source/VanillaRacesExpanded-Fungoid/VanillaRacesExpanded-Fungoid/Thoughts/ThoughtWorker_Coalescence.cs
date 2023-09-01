@@ -13,19 +13,24 @@ namespace VanillaRacesExpandedFungoid
             {
                 return false;
             }          
-            if (StaticCollectionsClass.xenotypesAndMood[StaticCollectionsClass.pawns_and_xenotypes[pawn]]<0)
+            
+            else
             {
                 return ThoughtState.ActiveAtStage(0);
-            }else
-            {
-                return ThoughtState.ActiveAtStage(1);
             }
            
         }
 
         public override float MoodMultiplier(Pawn pawn)
         {
-            return StaticCollectionsClass.xenotypesAndMood[StaticCollectionsClass.pawns_and_xenotypes[pawn]]/5;
+            if (StaticCollectionsClass.xenotypesAndMood.ContainsKey(StaticCollectionsClass.pawns_and_xenotypes[pawn]))
+            {
+
+                return (StaticCollectionsClass.xenotypesAndMood[StaticCollectionsClass.pawns_and_xenotypes[pawn]]) / 5;
+            }
+            else return 1;
+
+            
         }
     }
 }
