@@ -14,7 +14,7 @@ namespace VanillaRacesExpandedFungoid
         public override void ExposeData()
         {
 
-            Scribe_Values.Look(ref this.xenotypeName, nameof(this.xenotypeName.CapitalizeFirst()));
+            Scribe_Values.Look(ref this.xenotypeName, "xenotypeName");
 
             base.ExposeData();
         }

@@ -297,6 +297,7 @@
     <Compile Include="DamageWorkers\DamageWorker_ExtraFungoidInfection _Bite.cs" />
     <Compile Include="DamageWorkers\DamageWorker_ExtraFungoidInfection.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Harmony\FoodUtility_ThoughtsFromIngesting.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\MentalStateHandler_TryStartMentalState.cs" />
     <Compile Include="HediffComps\HediffComp_GeneInfection.cs" />
@@ -307,9 +308,10 @@
     <Compile Include="Thoughts\ThoughtWorker_Coalescence.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

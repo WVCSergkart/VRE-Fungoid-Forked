@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_FungalFlesh</defName>
+		<label>fungal flesh</label>
+		<labelShortAdj>fungal</labelShortAdj>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/Gene_FungalFlesh</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+	
+		
+	</GeneDef>
+	
+	
+</Defs>

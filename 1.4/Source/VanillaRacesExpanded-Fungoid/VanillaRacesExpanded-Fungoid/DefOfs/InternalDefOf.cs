@@ -19,10 +19,19 @@ namespace VanillaRacesExpandedFungoid
         public static ThoughtDef VRE_CoalescenceThought;
         public static GeneDef VRE_MindCoalescence;
         public static GeneDef VRE_GeneInfector;
+        public static GeneDef VRE_FungalFlesh;
+
 
         public static HediffDef VRE_GeneInfection;
 
-
+        [MayRequireIdeology]
+        public static PreceptDef Cannibalism_Acceptable;
+        [MayRequireIdeology]
+        public static PreceptDef Cannibalism_Preferred;
+        [MayRequireIdeology]
+        public static PreceptDef Cannibalism_RequiredStrong;
+        [MayRequireIdeology]
+        public static PreceptDef Cannibalism_RequiredRavenous;
 
     }
 }
