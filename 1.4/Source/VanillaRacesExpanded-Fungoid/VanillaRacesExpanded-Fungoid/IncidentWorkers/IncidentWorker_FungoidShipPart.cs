@@ -37,22 +37,10 @@ namespace VanillaRacesExpandedFungoid
                 return false;
             }
             float points = Mathf.Max(parms.points * 0.9f, 300f);
-            List<Pawn> list2 = PawnGroupMakerUtility.GeneratePawns(new PawnGroupMakerParms
-            {
-                groupKind = PawnGroupKindDefOf.Combat,
-                tile = map.Tile,
-                faction = Faction.OfMechanoids,
-                points = points
-            }).ToList();
+            
             Thing thing = ThingMaker.MakeThing(shipPartDef);
             thing.SetFaction(Faction.OfMechanoids);
-            LordMaker.MakeNewLord(Faction.OfMechanoids, new LordJob_SleepThenMechanoidsDefend(new List<Thing> { thing }, Faction.OfMechanoids, 28f, intVec, canAssaultColony: false, isMechCluster: false), map, list2);
-            DropPodUtility.DropThingsNear(intVec, map, list2.Cast<Thing>());
-            foreach (Pawn item in list2)
-            {
-                item.TryGetComp<CompCanBeDormant>()?.ToSleep();
-            }
-            list.AddRange(list2.Select((Pawn p) => new TargetInfo(p)));
+            
             GenSpawn.Spawn(SkyfallerMaker.MakeSkyfaller(ThingDefOf.CrashedShipPartIncoming, thing), intVec, map);
             list.Add(new TargetInfo(intVec, map));
             SendStandardLetter(parms, list);

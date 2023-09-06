@@ -66,6 +66,9 @@
       <shadowData><volume>(0.9, 1.0, 0.9)</volume></shadowData>
       <damageData><rect>(0.5, 0.1, 5, 2.8)</rect></damageData>
     </graphicData>
+	<building>
+      <soundAmbient>VRE_FungoidShipPart_Ambience</soundAmbient>
+    </building>
   
   </ThingDef>
 
