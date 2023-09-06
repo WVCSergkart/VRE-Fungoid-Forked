@@ -20,9 +20,14 @@ namespace VanillaRacesExpandedFungoid
         public static GeneDef VRE_MindCoalescence;
         public static GeneDef VRE_GeneInfector;
         public static GeneDef VRE_FungalFlesh;
+        public static GeneDef VRE_Repulsive;
+        public static GeneDef VRE_Telepathy;
+
+        public static ThingDef VRE_FungoidShipPart;
 
 
         public static HediffDef VRE_GeneInfection;
+        public static HediffDef VRE_GeneInfected;
 
         [MayRequireIdeology]
         public static PreceptDef Cannibalism_Acceptable;

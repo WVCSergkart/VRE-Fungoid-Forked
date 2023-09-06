@@ -11,6 +11,18 @@
 			<li>VRE_MindCoalescence</li>
 			<li>VRE_GeneInfector</li>
 			<li>VRE_FungalFlesh</li>
+			
+			<li>VRE_SevereSkillLoss</li>
+			<li>VRE_SkillDegradation</li>
+			<li>VRE_NoStudy</li>
+			<li>VRE_Repulsive</li>
+			
+			<li>VRE_RotBlood</li>
+			
+			<li>VRE_FungalArmor</li>
+			<li>VRE_FungalRegeneration</li>
+			<li>VRE_Telepathy</li>
+			<li>VRE_DeadVoice</li>
 		</genes>
 	</XenotypeDef>
 </Defs>

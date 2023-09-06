@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_FungalArmor</defName>
+		<label>fungal armor</label>
+		
+		<description>todo.</description>
+		
+		<iconPath>UI/Icons/Genes/Gene_FungalArmor</iconPath>
+		<prerequisite>VRE_GeneInfector</prerequisite>
+		
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<displayOrderInCategory>5001</displayOrderInCategory>
+	
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+			
+				<hediffToWholeBody>VRE_FungalArmor</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef>
+		<defName>VRE_FungalRegeneration</defName>
+		<label>fungal regeneration</label>
+		
+		<description>todo.</description>
+		
+		<iconPath>UI/Icons/Genes/Gene_FungalRegeneration</iconPath>
+		<prerequisite>VRE_GeneInfector</prerequisite>
+		
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>5002</displayOrderInCategory>
+	
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+			
+				<hediffToWholeBody>VRE_FungalRegeneration</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

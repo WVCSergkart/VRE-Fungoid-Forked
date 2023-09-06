@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FleshTypeDef>
+        <defName>VRE_RotWoundsFlesh</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>VRE_Damage_HitRotFlesh</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Wounds/VRE_RotWoundFleshA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Wounds/VRE_RotWoundFleshB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Wounds/VRE_RotWoundFleshC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+
+</Defs>

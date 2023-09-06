@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneCategoryDef>
+		<defName>VRE_SkillLoss</defName>
+		<label>skills</label>
+		<displayPriorityInXenotype>201.6</displayPriorityInXenotype>
+		
+	</GeneCategoryDef>
+</Defs>

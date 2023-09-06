@@ -4,6 +4,7 @@
 
 	<VRE_InfectionLabel>Gene infection ({0})</VRE_InfectionLabel>
 	<VRE_InfectionDescription>Infection caused by the contact with a {0}. Upon reaching 100%, colonist will turn into a {0}</VRE_InfectionDescription>
+	<VRE_InfectedLabel>Gene infected ({0} days)</VRE_InfectedLabel>
 
 
 </LanguageData>

@@ -14,4 +14,17 @@
 	</GeneDef>
 	
 	
+	<GeneDef>
+		<defName>VRE_Telepathy</defName>
+		<label>telepathy</label>
+		<labelShortAdj>telepath</labelShortAdj>
+		<description>.</description>
+		<iconPath>UI/Icons/Genes/Gene_Telepathy</iconPath>
+		<displayCategory>Psychic</displayCategory>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+	
+		
+	</GeneDef>
+	
 </Defs>

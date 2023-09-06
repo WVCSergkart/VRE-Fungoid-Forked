@@ -32,7 +32,7 @@
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
-				
+				<hediffToWholeBody>VRE_GeneInfected</hediffToWholeBody>
 				<hediffsToBodyParts>
 					<li>
 						<hediff>VRE_InfectorHands</hediff>

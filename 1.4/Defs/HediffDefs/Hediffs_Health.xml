@@ -67,4 +67,16 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>VRE_GeneInfected</defName>
+		<label>gene infected</label>
+		<description>This person was the victim of a gene infection that altered his xenotype. This can't be cured.</description>
+		<hediffClass>VanillaRacesExpandedFungoid.Hediff_GeneInfected</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		
+	</HediffDef>
 </Defs>

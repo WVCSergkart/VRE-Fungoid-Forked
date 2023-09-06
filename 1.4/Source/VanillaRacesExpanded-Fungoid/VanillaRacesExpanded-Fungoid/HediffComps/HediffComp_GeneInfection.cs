@@ -81,7 +81,8 @@ namespace VanillaRacesExpandedFungoid
                     }
 
                 }
-                
+
+                parent.pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
 
                 parent.pawn.health.hediffSet.hediffs.Remove(parent);
 
