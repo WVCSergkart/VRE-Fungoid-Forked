@@ -33,6 +33,9 @@
 			
 			<li>VRE_Telepathy</li>
 			<li>VRE_DeadVoice</li>
+			
+			<li>VRE_FungalCrest</li>
+			<li>Head_Gaunt</li>
 		</genes>
 	</XenotypeDef>
 </Defs>

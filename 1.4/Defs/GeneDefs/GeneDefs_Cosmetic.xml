@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHairStyleBase">
+		<defName>VRE_FungalCrest</defName>
+		<label>fungal crest</label>
+		<description>todo.</description>
+		<iconPath>UI/Icons/Genes/Gene_FungalCrest</iconPath>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>VRE_FungoidHairs</li>
+			</tags>
+		</hairTagFilter>
+		
+	</GeneDef>
+	
+	
+</Defs>
