@@ -25,6 +25,10 @@ namespace VanillaRacesExpandedFungoid
 
         public static ThingDef VRE_FungoidShipPart;
 
+        public static XenotypeDef VRE_Fungoid;
+
+        public static MentalStateDef VRE_SelectiveBerserk;
+
 
         public static HediffDef VRE_GeneInfection;
         public static HediffDef VRE_GeneInfected;

@@ -11,7 +11,7 @@ namespace VanillaRacesExpandedFungoid
 {
     class HediffComp_StageByFungalDays : HediffComp
     {
-
+        public int tickCounter = 1;
 
         public HediffCompProperties_StageByFungalDays Props
         {
@@ -26,8 +26,10 @@ namespace VanillaRacesExpandedFungoid
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (this.parent.pawn.IsHashIntervalTick(60000))
+            if (this.parent.pawn.IsHashIntervalTick(tickCounter))
             {
+                tickCounter = 60000;
+
                 Hediff_GeneInfected hediff = (Hediff_GeneInfected)this.parent.pawn.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfected);
 
 

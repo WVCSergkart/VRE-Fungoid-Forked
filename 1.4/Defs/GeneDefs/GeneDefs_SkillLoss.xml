@@ -103,6 +103,9 @@
 		<defName>VRE_NoStudy</defName>
 		<label>no study</label>
 		<description>.</description>
+		<exclusionTags>
+			<li>Learning</li>
+		</exclusionTags>
 		<iconPath>UI/Icons/Genes/Gene_NoStudy</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5005</displayOrderInCategory>

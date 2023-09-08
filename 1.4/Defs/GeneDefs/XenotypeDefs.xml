@@ -24,6 +24,7 @@
 			<li>MinTemp_LargeDecrease</li>
 			<li>MaxTemp_LargeIncrease</li>
 			<li>ToxResist_Total</li>
+			<li>ToxicEnvironmentResistance_Total</li>
 			<li>MeleeDamage_Strong</li>
 			<li>Sterile</li>
 			

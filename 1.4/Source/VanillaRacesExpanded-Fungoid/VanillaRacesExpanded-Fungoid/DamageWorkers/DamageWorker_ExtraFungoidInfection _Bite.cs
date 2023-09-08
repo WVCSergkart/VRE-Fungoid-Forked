@@ -32,27 +32,34 @@ namespace VanillaRacesExpandedFungoid
 
                         if (hediff == null && pawn.GetStatValue(StatDefOf.ToxicResistance, true) < 1f && random.NextDouble() > InfectionChance)
                         {
-                            pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection, dinfo.HitPart, null, null);
-                            Hediff hediffApplied = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
-                            HediffComp_GeneInfection comp = hediffApplied.TryGetComp<HediffComp_GeneInfection>();
-                            comp.xenotype = xenotype;
-                            List<GeneDef> endogenesToPass = new List<GeneDef>();
-                            foreach (Gene endogene in attackingPawn.genes.Endogenes)
+                            try
                             {
-                                endogenesToPass.Add(endogene.def);
-                            }
-                            comp.endogenes = endogenesToPass;
-                            List<GeneDef> xenogenesToPass = new List<GeneDef>();
-                            foreach (Gene xenogene in attackingPawn.genes.Xenogenes)
-                            {
-                                xenogenesToPass.Add(xenogene.def);
-                            }
-                            comp.xenogenes = xenogenesToPass;
-                            comp.iconDef = attackingPawn.genes.iconDef;
-                            comp.xenotypeName = attackingPawn.genes.xenotypeName;
+                                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection, dinfo.HitPart, null, null);
+                                Hediff hediffApplied = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
+                                HediffComp_GeneInfection comp = hediffApplied.TryGetComp<HediffComp_GeneInfection>();
+                                comp.xenotype = xenotype;
+                                List<GeneDef> endogenesToPass = new List<GeneDef>();
+                                foreach (Gene endogene in attackingPawn.genes.Endogenes)
+                                {
+                                    endogenesToPass.Add(endogene.def);
+                                }
+                                comp.endogenes = endogenesToPass;
+                                List<GeneDef> xenogenesToPass = new List<GeneDef>();
+                                foreach (Gene xenogene in attackingPawn.genes.Xenogenes)
+                                {
+                                    xenogenesToPass.Add(xenogene.def);
+                                }
+                                comp.xenogenes = xenogenesToPass;
+                                comp.iconDef = attackingPawn.genes.iconDef;
+                                comp.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
 
-                            Hediff_GeneInfection hediffWithClass = hediffApplied as Hediff_GeneInfection;
-                            hediffWithClass.xenotypeName = attackingPawn.genes.xenotypeName;
+
+
+                                Hediff_GeneInfection hediffWithClass = hediffApplied as Hediff_GeneInfection;
+                                hediffWithClass.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
+                            }
+                            catch (Exception) { }
+
                         }
 
                     }
