@@ -299,6 +299,7 @@
     <Compile Include="DamageWorkers\DamageWorker_ExtraFungoidInfection.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Filths\Filth_RotEmitting.cs" />
+    <Compile Include="Genes\Gene_RandomGene.cs" />
     <Compile Include="Harmony\FoodUtility_ThoughtsFromIngesting.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\InteractionUtility_IsGoodPositionForInteraction.cs" />
