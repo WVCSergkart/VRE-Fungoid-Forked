@@ -91,7 +91,25 @@ namespace VanillaRacesExpandedFungoid
 
         }
 
-       
+        public override IEnumerable<Gizmo> CompGetGizmos()
+        {
+          
+
+            if (Prefs.DevMode)
+            {
+                Command_Action command_Action = new Command_Action();
+                command_Action.defaultLabel = "DEBUG: Infect now";
+                command_Action.icon = TexCommand.DesirePower;
+                command_Action.action = delegate
+                {
+                    parent.Severity= 1f;
+
+                };
+                yield return command_Action;
+            }
+        }
+
+
 
     }
 }

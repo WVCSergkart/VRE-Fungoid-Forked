@@ -36,7 +36,7 @@ namespace VanillaRacesExpandedFungoid
         {
             get
             {
-                return "VRE_InfectionLabel".Translate(xenotypeName);
+                return "VRE_InfectionLabel".Translate(xenotypeName,this.Severity.ToStringPercent());
             }
 
         }

@@ -27,6 +27,11 @@
 		<addedPartProps>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
 	<HediffDef>
 		<defName>VRE_InfectorHands</defName>
@@ -55,7 +60,10 @@
 		<addedPartProps>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
-	
-	
 </Defs>
