@@ -4,7 +4,7 @@
 		<defName>VRE_GeneInfection</defName>
 		<label>gene infection</label>
 		<labelNoun>a gene infection</labelNoun>
-		<description>todo.</description>
+		<description>This person was implanted a copy of a xenogerm through a melee attack. This has triggered a progressing infection which, if left untreated will apply this xenogerm to them.</description>
 		<makesSickThought>true</makesSickThought>
 		<hediffClass>VanillaRacesExpandedFungoid.Hediff_GeneInfection</hediffClass>
 		<tendable>true</tendable>
