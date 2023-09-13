@@ -29,6 +29,8 @@ namespace VanillaRacesExpandedFungoid
 
         public static MentalStateDef VRE_SelectiveBerserk;
 
+        public static PawnKindDef VRE_AncientFungoid;
+
 
         public static HediffDef VRE_GeneInfection;
         public static HediffDef VRE_GeneInfected;

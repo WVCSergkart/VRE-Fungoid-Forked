@@ -4,7 +4,7 @@
 		<defName>VRE_FungalArmor</defName>
 		<label>fungal armor</label>
 		
-		<description>todo.</description>
+		<description>Carriers of this gene have fungal weave in their skin, greatly decreasing incoming damage. The effects increase in severity with time.</description>
 		
 		<iconPath>UI/Icons/Genes/Gene_FungalArmor</iconPath>
 		<prerequisite>VRE_GeneInfector</prerequisite>
@@ -27,7 +27,7 @@
 		<defName>VRE_FungalRegeneration</defName>
 		<label>fungal regeneration</label>
 		
-		<description>todo.</description>
+		<description>Carriers of this gene are capable of fungal regeneration. The effects increase in severity with time.</description>
 		
 		<iconPath>UI/Icons/Genes/Gene_FungalRegeneration</iconPath>
 		<prerequisite>VRE_GeneInfector</prerequisite>

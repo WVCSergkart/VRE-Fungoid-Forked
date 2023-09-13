@@ -4,7 +4,7 @@
 		<defName>VRE_MindCoalescence</defName>
 		<label>mind coalescence</label>
 		<labelShortAdj>coalescent</labelShortAdj>
-		<description>.</description>
+		<description>Carriers of this gene have a psychic connection to other carriers, allowing them to share some of the emotions with them. A portion of average happiness gets shared with mind coalescent individuals. Due to that, they also all share mental states and suffer them at the same time.</description>
 		<iconPath>UI/Icons/Genes/Gene_MindCoalescence</iconPath>
 		<displayCategory>Archite</displayCategory>
 		<displayOrderInCategory>5000</displayOrderInCategory>
@@ -20,7 +20,7 @@
 		<defName>VRE_GeneInfector</defName>
 		<label>gene infector</label>
 		
-		<description>.</description>
+		<description>Carriers of this gene implant a copy of their xenogerm into another person through a melee attack of any kind. This in turn triggers a progressing infection in the victim, which if left untreated will apply the carrier’s xenogerm to them.</description>
 		<iconPath>UI/Icons/Genes/Gene_GeneInfector</iconPath>
 		<displayCategory>Archite</displayCategory>
 		<displayOrderInCategory>5001</displayOrderInCategory>

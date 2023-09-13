@@ -4,7 +4,7 @@
 		<defName>VRE_RotBlood</defName>
 		<label>rotblood</label>
 		<displayCategory>Healing</displayCategory>
-		<description>todo.</description>
+		<description>Carriers of this gene bleed stinking rot blood.</description>
 		<iconPath>UI/Icons/Genes/Gene_Rotblood</iconPath>
 		<displayOrderInCategory>0</displayOrderInCategory>
 		

@@ -41,7 +41,7 @@ namespace VanillaRacesExpandedFungoid
                 forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowPregnant: false, allowFood: true, allowAddictions: false, 
                 inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, 
                 worldPawnFactionDoesntMatter: false, biocodeWeaponChance: 0f, extraPawnForExtraRelationChance: null,
-                relationWithExtraPawnChanceFactor: 0f, fixedGender: null, kind: PawnKindDefOf.WildMan, faction: Faction.OfAncientsHostile, 
+                relationWithExtraPawnChanceFactor: 0f, fixedGender: null, kind: InternalDefOf.VRE_AncientFungoid, faction: Faction.OfAncientsHostile, 
                 context: PawnGenerationContext.NonPlayer, tile: -1, forceGenerateNewPawn: false, allowDead: false, allowDowned: false, 
                 canGeneratePawnRelations: false, biocodeApparelChance: 1f, validatorPreGear: null, validatorPostGear: null, 
                 forcedTraits: null, prohibitedTraits: null, minChanceToRedressWorldPawn: null, fixedBiologicalAge: 40, 

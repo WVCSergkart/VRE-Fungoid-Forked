@@ -3,7 +3,7 @@
 	<GeneDef ParentName="GeneHairStyleBase">
 		<defName>VRE_FungalCrest</defName>
 		<label>fungal crest</label>
-		<description>todo.</description>
+		<description>Carriers of this gene grow a large, colorful fungal crest protruding from the top of their head.</description>
 		<iconPath>UI/Icons/Genes/Gene_FungalCrest</iconPath>
 		<hairTagFilter>
 			<whitelist>true</whitelist>

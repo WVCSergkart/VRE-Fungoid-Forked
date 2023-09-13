@@ -3,7 +3,7 @@
 	<GeneDef ParentName="GeneBeautyBase">
 		<defName>VRE_Repulsive</defName>
 		<label>repulsive</label>
-		<description>todo.</description>
+		<description>Carriers of this gene have twisted, unnatural, terrifying looks. They barely resemble humans. Any social interactions with them make people sick.</description>
 		<iconPath>UI/Icons/Genes/Gene_Repulsive</iconPath>
 		<displayOrderInCategory>-100</displayOrderInCategory>
 		<statOffsets>

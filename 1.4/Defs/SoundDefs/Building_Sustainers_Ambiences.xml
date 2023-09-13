@@ -12,7 +12,7 @@
             <clipPath>FungoidShip_Loop_1a_01</clipPath>
           </li>
         </grains>      
-        <volumeRange>16</volumeRange>
+        <volumeRange>32</volumeRange>
         <distRange>10~38</distRange>
       </li>
     </subSounds>

@@ -3,7 +3,7 @@
 	<GeneDef>
 		<defName>VRE_ExtremeSkillLoss</defName>
 		<label>extreme skill loss</label>
-		<description>.</description>
+		<description>Carriers of this gene forget skills twice as fast.</description>
 		<iconPath>UI/Icons/Genes/Gene_SkillLossExtreme</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5000</displayOrderInCategory>
@@ -24,7 +24,7 @@
 	<GeneDef>
 		<defName>VRE_SevereSkillLoss</defName>
 		<label>severe skill loss</label>
-		<description>.</description>
+		<description>Carriers of this gene forget skills 50% faster.</description>
 		<iconPath>UI/Icons/Genes/Gene_SkillLossSevere</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5001</displayOrderInCategory>
@@ -45,7 +45,7 @@
 	<GeneDef>
 		<defName>VRE_MinorSkillLoss</defName>
 		<label>minor skill loss</label>
-		<description>.</description>
+		<description>Carriers of this gene forget skills half as slow.</description>
 		<iconPath>UI/Icons/Genes/Gene_SkillLossMinor</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5002</displayOrderInCategory>
@@ -66,7 +66,7 @@
 	<GeneDef>
 		<defName>VRE_NoSkillLoss</defName>
 		<label>no skill loss</label>
-		<description>.</description>
+		<description>Carriers of this gene do not suffer from forgetting skills.</description>
 		<iconPath>UI/Icons/Genes/Gene_SkillLossNone</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5003</displayOrderInCategory>
@@ -87,7 +87,7 @@
 	<GeneDef>
 		<defName>VRE_SkillDegradation</defName>
 		<label>skill degradation</label>
-		<description>.</description>
+		<description>Carriers of this gene suffer from forgetting skills regardless of their current skill level.</description>
 		<iconPath>UI/Icons/Genes/Gene_SkillDegradation</iconPath>
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5004</displayOrderInCategory>
@@ -102,7 +102,7 @@
 	<GeneDef>
 		<defName>VRE_NoStudy</defName>
 		<label>no study</label>
-		<description>.</description>
+		<description>Carriers of this gene are incapable of learning new skills.</description>
 		<exclusionTags>
 			<li>Learning</li>
 		</exclusionTags>
