@@ -23,14 +23,14 @@
 				</statFactors>
 			</li>
 			<li>
-				<minSeverity>0.5</minSeverity>
+				<minSeverity>0.4</minSeverity>
 				<statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
 					
 				</statFactors>
 			</li>
 			<li>
-				<minSeverity>1</minSeverity>
+				<minSeverity>0.9</minSeverity>
 				<statFactors>
 					<IncomingDamageFactor>0.85</IncomingDamageFactor>
 					
@@ -62,14 +62,14 @@
 				</statFactors>
 			</li>
 			<li>
-				<minSeverity>0.5</minSeverity>
+				<minSeverity>0.4</minSeverity>
 				<statFactors>
 					<InjuryHealingFactor>2.5</InjuryHealingFactor>
 					
 				</statFactors>
 			</li>
 			<li>
-				<minSeverity>1</minSeverity>
+				<minSeverity>0.9</minSeverity>
 				<statFactors>
 					<InjuryHealingFactor>1.5</InjuryHealingFactor>
 					
