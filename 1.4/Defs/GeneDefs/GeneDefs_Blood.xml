@@ -14,7 +14,7 @@
 			<li>Blood</li>
 		</exclusionTags>
 		<biostatCpx>1</biostatCpx>
-
+		<biostatMet>1</biostatMet>
 		<symbolPack>
 			<wholeNameSymbols>
 				<li>

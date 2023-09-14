@@ -14,7 +14,7 @@
 			<li>Deathless</li>
 			
 			<li>VRE_FungalFlesh</li>			
-			<li>VRE_SevereSkillLoss</li>
+			<li>VRE_ExtremeSkillLoss</li>
 			<li>VRE_SkillDegradation</li>
 			<li>VRE_NoStudy</li>
 			<li>VRE_Repulsive</li>
@@ -29,6 +29,7 @@
 			<li>MaxTemp_LargeIncrease</li>			
 			<li>MeleeDamage_Strong</li>
 			<li>Sterile</li>
+			<li>AptitudeTerrible_Intellectual</li>
 			
 			<li>VRE_FungalCrest</li>
 			<li>Head_Gaunt</li>
