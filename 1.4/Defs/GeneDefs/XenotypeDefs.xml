@@ -3,8 +3,8 @@
 	<XenotypeDef>
 		<defName>VRE_Fungoid</defName>
 		<label>fungoid</label>
-		<description>todo.</description>
-		<descriptionShort>todo.</descriptionShort>
+		<description>A private military project gone awry, fungoids were initially developed as militarized mycelium to be deployed against the increasingly prevalent Insectoid threat. Subjects eventually succumb to degradation of higher reasoning skills but develop increasing resistance to injury and subsequent recovery. Can infect non-carriers through melee attacks, which is their main method of reproduction, if left untreated.\n\nDuring initial testing phases, the fungoid genome successfully infected numerous insectoid test subjects which were then released into controlled sites to determine their actual viability. In order to reduce their reliance on archite capsules, carriers were capable of transmitting infections through touch or airborne particles. However, foreign insectoids destroyed them as well as any of their own that showed signs of infection. Further still, due to the infectivity of the mycelium, any humans that were working on the project became infected.\n\nDue to concerns and misunderstandings on treatment, the operation site was glassed, but many of those present had managed to flee into orbit, only to become carriers themselves and infect others.</description>
+		<descriptionShort>A private military project gone awry, fungoids were initially developed as militarized mycelium to be deployed against the increasingly prevalent Insectoid threat. Subjects eventually succumb to degradation of higher reasoning skills but develop increasing resistance to injury and subsequent recovery. Can infect non-carriers through melee attacks, which is their main method of reproduction, if left untreated.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Fungoid</iconPath>
 		<inheritable>false</inheritable>
 		<genes>
