@@ -3,14 +3,15 @@ using RimWorld;
 using Verse.Sound;
 using Verse.Noise;
 using System.Collections.Generic;
+using UnityEngine.Analytics;
+using System.Linq;
 
 namespace VanillaRacesExpandedFungoid
 {
     class HediffComp_GeneInfection : HediffComp
     {
 
-        public XenotypeDef xenotype;
-        public List<GeneDef> endogenes = new List<GeneDef>();
+
         public List<GeneDef> xenogenes = new List<GeneDef>();
         public string xenotypeName;
         public XenotypeIconDef iconDef;
@@ -26,9 +27,8 @@ namespace VanillaRacesExpandedFungoid
         public override void CompExposeData()
         {
             base.CompExposeData();
-           
-            Scribe_Defs.Look(ref this.xenotype, nameof(this.xenotype));
-            Scribe_Collections.Look(ref this.endogenes, nameof(this.endogenes), LookMode.Def);
+
+
             Scribe_Collections.Look(ref this.xenogenes, nameof(this.xenogenes), LookMode.Def);
             Scribe_Values.Look(ref this.xenotypeName, nameof(this.xenotypeName));
             Scribe_Defs.Look(ref this.iconDef, nameof(this.iconDef));
@@ -40,7 +40,8 @@ namespace VanillaRacesExpandedFungoid
         {
             base.CompPostTick(ref severityAdjustment);
 
-            if (parent.Severity>0.99f) {
+            if (parent.Severity > 0.99f)
+            {
 
                 if (parent.pawn.Map != null)
                 {
@@ -54,32 +55,25 @@ namespace VanillaRacesExpandedFungoid
 
                     SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(parent.pawn.Position, parent.pawn.Map, false));
                 }
-                if(xenotype != null)
+
+                List<Gene> geneListBackup = (from x in parent.pawn.genes.GenesListForReading
+                                            where x.def.exclusionTags?.Contains("HairStyle")==false
+                                             select x).ToList();
+   
+                parent.pawn.genes?.SetXenotype(XenotypeDefOf.Baseliner);
+
+                foreach (Gene gene in geneListBackup)
                 {
-                    if (xenotype != XenotypeDefOf.Baseliner)
-                    {
-                        parent.pawn.genes?.SetXenotype(xenotype);
+                    parent.pawn.genes.AddGene(gene.def, false);
 
-                    }
-                    else
-                
-                    {
-                        parent.pawn.genes?.SetXenotype(XenotypeDefOf.Baseliner);
-                        parent.pawn.genes.xenotypeName = xenotypeName;
-                        parent.pawn.genes.iconDef = iconDef;
-               
-                        
-                        foreach (GeneDef geneDef in endogenes)
-                        {
-                            parent.pawn.genes.AddGene(geneDef, false);
-                        }
-                        foreach (GeneDef geneDef in xenogenes)
-                        {
-                            parent.pawn.genes.AddGene(geneDef, true);
-                        }
-
-                    }
-
+                }
+  
+                parent.pawn.genes.xenotypeName = xenotypeName;
+                parent.pawn.genes.iconDef = iconDef;
+         
+                foreach (GeneDef geneDef in xenogenes)
+                {
+                    parent.pawn.genes.AddGene(geneDef, true);
                 }
 
                 parent.pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
@@ -93,7 +87,7 @@ namespace VanillaRacesExpandedFungoid
 
         public override IEnumerable<Gizmo> CompGetGizmos()
         {
-          
+
 
             if (Prefs.DevMode)
             {
@@ -102,7 +96,7 @@ namespace VanillaRacesExpandedFungoid
                 command_Action.icon = TexCommand.DesirePower;
                 command_Action.action = delegate
                 {
-                    parent.Severity= 1f;
+                    parent.Severity = 1f;
 
                 };
                 yield return command_Action;

@@ -29,6 +29,7 @@
 		<biostatMet>0</biostatMet>
 		<customEffectDescriptions>
 			<li>Won't affect anyone who already has this gene.</li>
+			<li>The gene infector will only transmit xenogenes, NOT endogenes.</li>
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

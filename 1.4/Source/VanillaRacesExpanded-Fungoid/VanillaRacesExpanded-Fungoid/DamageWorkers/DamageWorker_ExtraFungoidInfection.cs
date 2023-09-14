@@ -33,32 +33,40 @@ namespace VanillaRacesExpandedFungoid
                         {
                             try
                             {
-                                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection, dinfo.HitPart, null, null);
+                                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection);
                                 Hediff hediffApplied = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
                                 HediffComp_GeneInfection comp = hediffApplied.TryGetComp<HediffComp_GeneInfection>();
-                                comp.xenotype = xenotype;
-                                List<GeneDef> endogenesToPass = new List<GeneDef>();
-                                foreach (Gene endogene in attackingPawn.genes.Endogenes)
-                                {
-                                    endogenesToPass.Add(endogene.def);
-                                }
-                                comp.endogenes = endogenesToPass;
+
+
                                 List<GeneDef> xenogenesToPass = new List<GeneDef>();
                                 foreach (Gene xenogene in attackingPawn.genes.Xenogenes)
                                 {
                                     xenogenesToPass.Add(xenogene.def);
                                 }
                                 comp.xenogenes = xenogenesToPass;
-                                comp.iconDef = attackingPawn.genes.iconDef;
-                                comp.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
-
-
-
                                 Hediff_GeneInfection hediffWithClass = hediffApplied as Hediff_GeneInfection;
-                                hediffWithClass.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
+                                if (attackingPawn.genes.CustomXenotype != null)
+                                {
+                                    comp.xenotypeName = attackingPawn.genes.CustomXenotype.name.CapitalizeFirst();
+                                    hediffWithClass.xenotypeName = attackingPawn.genes.CustomXenotype.name.CapitalizeFirst();
+                                    comp.iconDef = attackingPawn.genes.CustomXenotype.IconDef;
+
+                                }
+                                else
+                                {
+                                    comp.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
+                                    hediffWithClass.xenotypeName = attackingPawn.genes.Xenotype.LabelCap;
+                                    comp.iconDef = attackingPawn.genes.iconDef;
+
+                                }
+
+
+
+
+
                             }
                             catch (Exception) { }
-                            
+
                         }
 
                     }
