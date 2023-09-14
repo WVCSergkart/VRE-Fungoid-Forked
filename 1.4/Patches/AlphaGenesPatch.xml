@@ -18,19 +18,19 @@
 						<label>very repulsive</label>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/GeneDef[defName="VRE_TotalAntirotLungs"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+					<value>
+						<hideGene>true</hideGene>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/XenotypeDef[defName="VRE_Fungoid"]/genes/li[@Name="AlphaGenesSwapFungoid"]</xpath>
+					<value>
+						<li Name="AlphaGenesSwapFungoid">AG_LungRotImmunity</li>
+					</value>
+				</li>
 			</operations>
 		</match>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/GeneDef[defName="VRE_TotalAntirotLungs"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-		<value>
-			<hideGene>true</hideGene>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/XenotypeDef[defName="VRE_Fungoid"]/genes/li[@Name="AlphaGenesSwapFungoid"]</xpath>
-		<value>
-			<li Name="AlphaGenesSwapFungoid">AG_LungRotImmunity</li>
-		</value>
 	</Operation>
 </Patch>
