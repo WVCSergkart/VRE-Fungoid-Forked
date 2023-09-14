@@ -9,8 +9,7 @@
 		<soundCall>VRE_DeadVoice_Call</soundCall>
 		<soundDeath>VRE_DeadVoice_Death</soundDeath>
 		<soundWounded>VRE_DeadVoice_Wounded</soundWounded>
-		<selectionWeight>0</selectionWeight>
-	
+		
 
 	</GeneDef>
 	

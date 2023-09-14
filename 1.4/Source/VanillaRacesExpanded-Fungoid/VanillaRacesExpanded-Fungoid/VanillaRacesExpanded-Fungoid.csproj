@@ -302,6 +302,7 @@
     <Compile Include="Genes\Gene_RandomGene.cs" />
     <Compile Include="Harmony\FoodUtility_ThoughtsFromIngesting.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\HediffComp_SeverityFromGas_CompPostTick.cs" />
     <Compile Include="Harmony\InteractionUtility_IsGoodPositionForInteraction.cs" />
     <Compile Include="Harmony\InteractionWorker_Interacted.cs" />
     <Compile Include="Harmony\MentalStateHandler_TryStartMentalState.cs" />
@@ -316,6 +317,7 @@
     <Compile Include="MentalStates\MentalState_SelectiveBerserk.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thoughts\ThoughtWorker_Coalescence.cs" />
+    <Compile Include="Utils\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="StaticCollections\StaticCollectionsClass.cs" />

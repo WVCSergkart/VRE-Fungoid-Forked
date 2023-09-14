@@ -10,7 +10,7 @@
 		<displayOrderInCategory>5000</displayOrderInCategory>
 		<biostatCpx>4</biostatCpx>
 		<biostatArc>1</biostatArc>
-		<biostatMet>3</biostatMet>
+		<biostatMet>0</biostatMet>
 		<customEffectDescriptions>
 			<li>This effect is updated twice a day ingame, to avoid lag.</li>
 		</customEffectDescriptions>

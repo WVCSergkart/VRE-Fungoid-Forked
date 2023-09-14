@@ -8,7 +8,7 @@
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5000</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>3</biostatMet>
+		<biostatMet>4</biostatMet>
 		<exclusionTags>
 			<li>VRE_SkillGenes</li>
 			<li>VRE_Curiosity</li>
@@ -110,7 +110,7 @@
 		<displayCategory>VRE_SkillLoss</displayCategory>
 		<displayOrderInCategory>5005</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
-		<biostatMet>2</biostatMet>
+		<biostatMet>4</biostatMet>
 		<statFactors>
 			<GlobalLearningFactor>0</GlobalLearningFactor>
 		</statFactors>

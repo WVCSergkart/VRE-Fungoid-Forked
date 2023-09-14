@@ -22,6 +22,7 @@ namespace VanillaRacesExpandedFungoid
         public static GeneDef VRE_FungalFlesh;
         public static GeneDef VRE_Repulsive;
         public static GeneDef VRE_Telepathy;
+        public static GeneDef VRE_PartialAntirotLungs;
 
         public static ThingDef VRE_FungoidShipPart;
 

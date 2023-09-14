@@ -8,9 +8,10 @@
 		<iconPath>UI/Icons/Xenotypes/Fungoid</iconPath>
 		<inheritable>false</inheritable>
 		<genes>
-			<li>Deathless</li>
+			
 			<li>VRE_MindCoalescence</li>
 			<li>VRE_GeneInfector</li>
+			<li>Deathless</li>
 			
 			<li>VRE_FungalFlesh</li>			
 			<li>VRE_SevereSkillLoss</li>
@@ -19,25 +20,23 @@
 			<li>VRE_Repulsive</li>
 			<li>VRE_FungalArmor</li>
 			<li>VRE_FungalRegeneration</li>
+			<li>VRE_RotBlood</li>
+			<li>VRE_Telepathy</li>
+			<li Name="AlphaGenesSwapFungoid">VRE_TotalAntirotLungs</li>
 			<li>Immunity_SuperStrong</li>
 			<li>Superclotting</li>
 			<li>MinTemp_LargeDecrease</li>
-			<li>MaxTemp_LargeIncrease</li>
-			<li>ToxResist_Total</li>
-			<li>ToxicEnvironmentResistance_Total</li>
+			<li>MaxTemp_LargeIncrease</li>			
 			<li>MeleeDamage_Strong</li>
 			<li>Sterile</li>
 			
-			<li>VRE_RotBlood</li>
-			
-			
-			<li>VRE_Telepathy</li>
-			<li>VRE_DeadVoice</li>
-			
 			<li>VRE_FungalCrest</li>
 			<li>Head_Gaunt</li>
-			<li>VRE_HairMushroom</li>
+			<li>VRE_DeadVoice</li>
 			<li>Hair_Grayless</li>
+			<li>VRE_HairMushroom</li>
+	
+			
 		</genes>
 	</XenotypeDef>
 </Defs>
