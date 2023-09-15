@@ -45,5 +45,7 @@ namespace VanillaRacesExpandedFungoid
         [MayRequireIdeology]
         public static PreceptDef Cannibalism_RequiredRavenous;
 
+
+
     }
 }

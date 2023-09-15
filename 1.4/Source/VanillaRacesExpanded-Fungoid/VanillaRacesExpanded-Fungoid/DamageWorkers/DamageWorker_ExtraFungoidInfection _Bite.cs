@@ -29,7 +29,7 @@ namespace VanillaRacesExpandedFungoid
 
                         Hediff hediff = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
 
-                        if (hediff == null && pawn.GetStatValue(StatDefOf.ToxicResistance, true) < 1f && random.NextDouble() > InfectionChance)
+                        if (hediff == null && random.NextDouble() > InfectionChance)
                         {
                             try
                             {
