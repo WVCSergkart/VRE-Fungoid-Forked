@@ -21,6 +21,8 @@ namespace VanillaRacesExpandedFungoid
             }
         }
 
+     
+
 
         public override void CompPostTick(ref float severityAdjustment)
         {
@@ -33,10 +35,10 @@ namespace VanillaRacesExpandedFungoid
                 Hediff_GeneInfected hediff = (Hediff_GeneInfected)this.parent.pawn.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfected);
 
 
-                if (hediff.infectionCounterInDays<Props.secondStageDays)
+                if (hediff.infectionCounterInDays < Props.secondStageDays)
                 {
                     this.parent.Severity = 1f;
-                }
+                }else
                 if (hediff.infectionCounterInDays < Props.thirdStageDays)
                 {
                     this.parent.Severity = 0.5f;

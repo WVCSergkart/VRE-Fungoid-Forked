@@ -20,7 +20,7 @@
 		<defName>VRE_GeneInfector</defName>
 		<label>gene infector</label>
 		
-		<description>Carriers of this gene implant a copy of their xenogerm into another person through a melee attack of any kind. This in turn triggers a progressing infection in the victim, which if left untreated will apply the carrier’s xenogerm to them.</description>
+		<description>Carriers of this gene implant a copy of their xenogerm into another person through attacks with their claws or teeth. This in turn triggers a progressing infection in the victim, which if left untreated will apply the carrier’s xenogerm to them.</description>
 		<iconPath>UI/Icons/Genes/Gene_GeneInfector</iconPath>
 		<displayCategory>Archite</displayCategory>
 		<displayOrderInCategory>5001</displayOrderInCategory>

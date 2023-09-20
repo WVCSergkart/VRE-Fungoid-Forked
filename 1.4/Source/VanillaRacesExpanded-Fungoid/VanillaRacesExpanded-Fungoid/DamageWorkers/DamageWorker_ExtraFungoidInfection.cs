@@ -11,7 +11,7 @@ namespace VanillaRacesExpandedFungoid
 
         protected override void ApplySpecialEffectsToPart(Pawn pawn, float totalDamage, DamageInfo dinfo, DamageWorker.DamageResult result)
         {
-            base.ApplySpecialEffectsToPart(pawn, totalDamage, dinfo, result);
+           
             Random random = new Random();
 
             
@@ -33,7 +33,7 @@ namespace VanillaRacesExpandedFungoid
                         {
                             try
                             {
-                                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection);
+                                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfection, dinfo.HitPart);
                                 Hediff hediffApplied = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
                                 HediffComp_GeneInfection comp = hediffApplied.TryGetComp<HediffComp_GeneInfection>();
 
@@ -77,10 +77,10 @@ namespace VanillaRacesExpandedFungoid
 
 
             }
-            
+
+            base.ApplySpecialEffectsToPart(pawn, totalDamage, dinfo, result);
 
 
-            
         }
     }
 }

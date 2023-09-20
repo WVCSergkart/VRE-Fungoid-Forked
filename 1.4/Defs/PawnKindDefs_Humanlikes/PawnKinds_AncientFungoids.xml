@@ -6,6 +6,12 @@
 		<combatPower>30</combatPower>
 		<race>Human</race>
 		<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
+		<xenotypeSet>
+			<xenotypeChances>
+				<VRE_Fungoid>999</VRE_Fungoid>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
 		<backstoryFilters>
 			<li>
 				<categories>
