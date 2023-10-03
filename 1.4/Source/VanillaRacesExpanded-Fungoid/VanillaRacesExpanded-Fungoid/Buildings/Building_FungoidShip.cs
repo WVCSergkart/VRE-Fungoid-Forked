@@ -70,7 +70,14 @@ namespace VanillaRacesExpandedFungoid
                 Pawn pawnSpawned = (Pawn)GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(this.Position, this.Map, 4), this.Map, Rot4.South);
                 Hediff_GeneInfected hediff = (Hediff_GeneInfected)pawnSpawned.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfected);
                 hediff.infectionCounterInDays = 10000;
-                pawnSpawned.mindState.mentalStateHandler.TryStartMentalState(InternalDefOf.VRE_SelectiveBerserk, null, forceWake: true, causedByMood: false, null, transitionSilently: false, causedByDamage: false);
+                // pawnSpawned.mindState.mentalStateHandler.TryStartMentalState(InternalDefOf.VRE_SelectiveBerserk, null, forceWake: true, causedByMood: false, null, transitionSilently: false, causedByDamage: false);
+                IEnumerable<Pawn> enumerable = from p in this.Map.mapPawns.AllPawns
+                                               where p.RaceProps.Humanlike && p.GetLord() == null && p.Faction == Faction.OfAncientsHostile
+                                               select p;
+                if (enumerable.Any())
+                {
+                    LordMaker.MakeNewLord(Faction.OfAncientsHostile, new LordJob_AssaultColony(Faction.OfAncientsHostile, canKidnap: false, canTimeoutOrFlee: true, sappers: false, useAvoidGridSmart: false, canSteal: false), base.Map, enumerable);
+                }
             }
         }
 

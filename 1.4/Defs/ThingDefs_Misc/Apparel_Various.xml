@@ -24,6 +24,7 @@
 		<recipeMaker Inherit="False" />
 		<equippedStatOffsets>
 			<MoveSpeed>-0.35</MoveSpeed>
+			 <Flammability>-1</Flammability>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
