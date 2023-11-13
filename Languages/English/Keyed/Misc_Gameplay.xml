@@ -5,6 +5,9 @@
 	<VRE_InfectionLabel>Gene infection ({0}), {1}</VRE_InfectionLabel>
 	<VRE_InfectionDescription>Infection caused by the contact with a {0}. Upon reaching 100%, colonist will turn into a {0}</VRE_InfectionDescription>
 	<VRE_InfectedLabel>Gene infected ({0} days)</VRE_InfectedLabel>
+	<VRE_InfectionChance>Gene infection chance</VRE_InfectionChance>
+	<VRE_InfectionChanceDesc>Chance of the gene infection to infect the target. By default it is 20%. Bear in mind this only applies to claw and teeth attacks, if the person with a gene infector gene carries melee weapons this will reduce infection chances.</VRE_InfectionChanceDesc>
+	<VRE_Reset>Reset</VRE_Reset>
 
 
 </LanguageData>

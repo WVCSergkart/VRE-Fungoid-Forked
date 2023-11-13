@@ -315,6 +315,9 @@
     <Compile Include="IncidentWorkers\IncidentWorker_FungoidShipPart.cs" />
     <Compile Include="MapComponents and GameComponents\MapComponent_CoalescenceTracker.cs" />
     <Compile Include="MentalStates\MentalState_SelectiveBerserk.cs" />
+    <Compile Include="Options\SettingsHelper.cs" />
+    <Compile Include="Options\VanillaRacesExpandedFungoid_Settings.cs" />
+    <Compile Include="Options\VanillaRacesExpandedFungoid_SettingsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thoughts\ThoughtWorker_Coalescence.cs" />
     <Compile Include="Utils\Utils.cs" />

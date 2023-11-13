@@ -7,7 +7,7 @@ namespace VanillaRacesExpandedFungoid
 {
     public class DamageWorker_ExtraFungoidInfection : DamageWorker_Cut
     {
-        public float InfectionChance = 0.8f;
+       
 
         protected override void ApplySpecialEffectsToPart(Pawn pawn, float totalDamage, DamageInfo dinfo, DamageWorker.DamageResult result)
         {
@@ -29,7 +29,7 @@ namespace VanillaRacesExpandedFungoid
 
                         Hediff hediff = pawn?.health?.hediffSet?.GetFirstHediffOfDef(InternalDefOf.VRE_GeneInfection);
 
-                        if (hediff == null && random.NextDouble() > InfectionChance)
+                        if (hediff == null && random.NextDouble() > (1 - VanillaRacesExpandedFungoid_Settings.infectionChance))
                         {
                             try
                             {
