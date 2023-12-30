@@ -27,7 +27,7 @@ namespace VanillaRacesExpandedFungoid
 
             if(__result)
             {
-                if(___pawn.genes?.HasGene(InternalDefOf.VRE_MindCoalescence)==true && stateDef != MentalStateDefOf.SocialFighting)
+                if(___pawn.genes?.HasGene(InternalDefOf.VRE_MindCoalescence)==true && stateDef != MentalStateDefOf.SocialFighting && stateDef != InternalDefOf.Crying && stateDef != InternalDefOf.Giggling)
                 {
                     List<Pawn> pawnsToBeAffected = (from x in StaticCollectionsClass.pawns_and_xenotypes where x.Value == ___pawn.genes.Xenotype select x.Key).ToList();
 

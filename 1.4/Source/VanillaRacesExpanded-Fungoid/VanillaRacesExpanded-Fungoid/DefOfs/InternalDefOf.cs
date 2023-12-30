@@ -29,6 +29,8 @@ namespace VanillaRacesExpandedFungoid
         public static XenotypeDef VRE_Fungoid;
 
         public static MentalStateDef VRE_SelectiveBerserk;
+        public static MentalStateDef Crying;
+        public static MentalStateDef Giggling;
 
         public static PawnKindDef VRE_AncientFungoid;
 
