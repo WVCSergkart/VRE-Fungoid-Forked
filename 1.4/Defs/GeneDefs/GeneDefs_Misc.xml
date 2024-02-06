@@ -10,6 +10,11 @@
 		<displayOrderInCategory>5000</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>1</biostatMet>
+		<exclusionTags>
+			<li>Flesh</li>
+			<li>Meat</li>
+			<li>AG_Meat</li>
+		</exclusionTags>
 	</GeneDef>
 	<GeneDef>
 		<defName>VRE_Telepathy</defName>
