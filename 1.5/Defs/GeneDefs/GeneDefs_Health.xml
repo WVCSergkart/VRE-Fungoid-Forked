@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_TotalAntirotLungs</defName>
+		<label>total antirot lungs</label>
+		<description>Carriers of this gene are immune to rot stink exposure.</description>
+		<iconPath>UI/Icons/Genes/Gene_TotalAntiRotLungs</iconPath>
+		<exclusionTags>
+			<li>AG_LungRot</li>
+		</exclusionTags>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<makeImmuneTo>
+			<li>LungRot</li>
+		</makeImmuneTo>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				
+			</li>
+		</modExtensions>
+		
+	</GeneDef>
+	
+	<GeneDef>
+		<defName>VRE_PartialAntirotLungs</defName>
+		<label>partial antirot lungs</label>
+		<description>Carriers of this gene build up rot stink exposure slower.</description>
+		<iconPath>UI/Icons/Genes/Gene_PartialAntiRotLungs</iconPath>
+		<exclusionTags>
+			<li>AG_LungRot</li>
+		</exclusionTags>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		
+	</GeneDef>
+	
+</Defs>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="InfectionBase">
+		<defName>VRE_GeneInfection</defName>
+		<label>gene infection</label>
+		<labelNoun>a gene infection</labelNoun>
+		<description>This person was implanted a copy of a xenogerm through a melee attack. This has triggered a progressing infection which, if left untreated will apply this xenogerm to them.</description>
+		<makesSickThought>true</makesSickThought>
+		<hediffClass>VanillaRacesExpandedFungoid.Hediff_GeneInfection</hediffClass>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-1.05</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>1.6</severityPerDayNotImmune>
+				<immunityPerDaySick>0.4</immunityPerDaySick>
+				<severityPerDayImmune>-0.70</severityPerDayImmune>
+				<immunityPerDayNotSick>-0.60</immunityPerDayNotSick>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterText>{0} has been afflicted with a gene infection! If the infection is not treated successfully, they'll be painfully converted into the xenotype of the person who infected them.</discoverLetterText>
+			</li>
+			<li Class="VanillaRacesExpandedFungoid.HediffCompProperties_GeneInfection">
+				
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.08</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.78</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.12</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.87</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>VRE_GeneInfected</defName>
+		<label>gene infected</label>
+		<description>This person was the victim of a gene infection that altered their xenotype. This can't be cured.</description>
+		<hediffClass>VanillaRacesExpandedFungoid.Hediff_GeneInfected</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+		
+	</HediffDef>
+</Defs>

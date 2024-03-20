@@ -48,12 +48,12 @@ namespace VanillaRacesExpandedFungoid
                     for (int i = 0; i < 20; i++)
                     {
                         IntVec3 c;
-                        CellFinder.TryFindRandomReachableCellNear(parent.pawn.Position, parent.pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                        CellFinder.TryFindRandomReachableCellNearPosition(parent.pawn.Position, parent.pawn.Position, parent.pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
 
                         FilthMaker.TryMakeFilth(c, parent.pawn.Map, ThingDefOf.Filth_Slime);
                     }
 
-                    SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(parent.pawn.Position, parent.pawn.Map, false));
+                    InternalDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(parent.pawn.Position, parent.pawn.Map, false));
                 }
 
                 List<Gene> geneListBackup = (from x in parent.pawn.genes.GenesListForReading

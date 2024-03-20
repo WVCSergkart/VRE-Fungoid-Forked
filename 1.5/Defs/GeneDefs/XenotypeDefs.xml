@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XenotypeDef>
+		<defName>VRE_Fungoid</defName>
+		<label>fungoid</label>
+		<description>A private military project gone awry, fungoids were initially developed as militarized mycelium to be deployed against the increasingly prevalent Insectoid threat. Subjects eventually succumb to degradation of higher reasoning skills but develop increasing resistance to injury and subsequent recovery. Can infect non-carriers through melee attacks, which is their main method of reproduction, if left untreated.\n\nDuring initial testing phases, the fungoid genome successfully infected numerous insectoid test subjects which were then released into controlled sites to determine their actual viability. In order to reduce their reliance on archite capsules, carriers were capable of transmitting infections through touch or airborne particles. However, foreign insectoids destroyed them as well as any of their own that showed signs of infection. Further still, due to the infectivity of the mycelium, any humans that were working on the project became infected.\n\nDue to concerns and misunderstandings on treatment, the operation site was glassed, but many of those present had managed to flee into orbit, only to become carriers themselves and infect others.</description>
+		<descriptionShort>A private military project gone awry, fungoids were initially developed as militarized mycelium to be deployed against the increasingly prevalent Insectoid threat. Subjects eventually succumb to degradation of higher reasoning skills but develop increasing resistance to injury and subsequent recovery. Can infect non-carriers through melee attacks, which is their main method of reproduction, if left untreated.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Fungoid</iconPath>
+		<inheritable>false</inheritable>
+		<genes>
+			
+			<li>VRE_MindCoalescence</li>
+			<li>VRE_GeneInfector</li>
+			<li>Deathless</li>
+			
+			<li>VRE_FungalFlesh</li>			
+			<li>VRE_ExtremeSkillLoss</li>
+			<li>VRE_SkillDegradation</li>
+			<li>VRE_NoStudy</li>
+			<li>VRE_Repulsive</li>
+			<li>VRE_FungalArmor</li>
+			<li>VRE_FungalRegeneration</li>
+			<li>VRE_RotBlood</li>
+			<li>VRE_Telepathy</li>
+			<li Name="AlphaGenesSwapFungoid">VRE_TotalAntirotLungs</li>
+			<li>Immunity_SuperStrong</li>
+			<li>Superclotting</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_LargeIncrease</li>			
+			<li>MeleeDamage_Strong</li>
+			<li>Sterile</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			
+			<li>VRE_FungalCrest</li>
+			<li>Head_Gaunt</li>
+			<li>VRE_DeadVoice</li>
+			<li>Hair_Grayless</li>
+			<li>VRE_HairMushroom</li>
+	
+			
+		</genes>
+	</XenotypeDef>
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef>
+		<defName>VRE_AncientFungoid</defName>
+		<label>ancient fungoid</label>
+		<combatPower>30</combatPower>
+		<race>Human</race>
+		<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
+		<xenotypeSet>
+			<xenotypeChances>
+				<VRE_Fungoid>999</VRE_Fungoid>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Pirate</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<apparelTags>
+			<li>AncientAstrosuit</li>
+		</apparelTags>
+		<apparelMoney>2000~2500</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<itemQuality>Poor</itemQuality>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>28~44</initialResistanceRange>
+	</PawnKindDef>
+</Defs>

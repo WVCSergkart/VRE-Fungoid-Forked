@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneHairStyleBase">
+		<defName>VRE_FungalCrest</defName>
+		<label>fungal crest</label>
+		<description>Carriers of this gene grow a large, colorful fungal crest protruding from the top of their head.</description>
+		<iconPath>UI/Icons/Genes/Gene_FungalCrest</iconPath>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>VRE_FungoidHairs</li>
+			</tags>
+		</hairTagFilter>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_HairMushroom</defName>
+		<label>fungal hair</label>
+		<selectionWeight>0</selectionWeight>
+		<iconPath>UI/Icons/Genes/Gene_FungalColors</iconPath>
+		<displayOrderInCategory>-5000</displayOrderInCategory>
+		<geneClass>VanillaRacesExpandedFungoid.Gene_RandomGene</geneClass>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_DarkTan</defName>
+		<label>dark tan hair</label>
+		<hairColorOverride>(170, 151, 125)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_SwampGreen</defName>
+		<label>swamp green hair</label>
+		<hairColorOverride>(88, 107, 93)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_Salmon</defName>
+		<label>salmon hair</label>
+		<hairColorOverride>(244, 143, 118)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_Wenge</defName>
+		<label>wenge hair</label>
+		<hairColorOverride>(117, 84, 84)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_Tumbleweed</defName>
+		<label>tumbleweed hair</label>
+		<hairColorOverride>(219, 166, 124)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_RoseTaupe</defName>
+		<label>rose taupe hair</label>
+		<hairColorOverride>(140, 93, 90)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GeneHairColorBase">
+		<defName>VRE_Fungoid_Hair_MistyMoss</defName>
+		<label>misty moss hair</label>
+		<hairColorOverride>(175, 172, 126)</hairColorOverride>
+		<selectionWeight>0</selectionWeight>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hideGene>true</hideGene>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

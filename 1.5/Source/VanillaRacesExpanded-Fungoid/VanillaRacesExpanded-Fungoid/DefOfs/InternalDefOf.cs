@@ -47,7 +47,9 @@ namespace VanillaRacesExpandedFungoid
         [MayRequireIdeology]
         public static PreceptDef Cannibalism_RequiredRavenous;
 
+        public static ThoughtDef AteHumanlikeMeatDirectCannibal;
 
+        public static SoundDef Hive_Spawn;
 
     }
 }
