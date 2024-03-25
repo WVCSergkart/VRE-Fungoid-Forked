@@ -14,55 +14,35 @@ using System.Security.Cryptography;
 namespace VanillaRacesExpandedFungoid
 {
 
-
-
     [HarmonyPatch(typeof(FoodUtility))]
     [HarmonyPatch("ThoughtsFromIngesting")]
     public static class VanillaRacesExpandedFungoid_FoodUtility_ThoughtsFromIngesting_Patch
     {
 
-        public static List<PreceptDef> listOfPrecepts = new List<PreceptDef>(){InternalDefOf.Cannibalism_Acceptable, InternalDefOf.Cannibalism_Preferred,
-                InternalDefOf.Cannibalism_RequiredStrong, InternalDefOf.Cannibalism_RequiredRavenous };
-
-
         [HarmonyPostfix]
-        public static void AddMushroomThought(Pawn ingester, Thing foodSource, ThingDef foodDef)
-
+        public static void AddPorkThought(Pawn ingester, Thing foodSource, ThingDef foodDef)
         {
-            
-
-            if (ingester.Ideo!=null && ingester.genes?.HasGene(InternalDefOf.VRE_FungalFlesh)==true)
+            if (foodDef.IsFungus && ingester.genes?.HasGene(InternalDefOf.VRE_FungalFlesh) == true)
             {
-                if (foodDef.IsFungus && IdeoNotCannibal(ingester))
-                {
-                    
-                    Thought_Memory thought_Memory = ThoughtMaker.MakeThought(InternalDefOf.AteHumanlikeMeatDirectCannibal, null);
-                    ingester.needs.mood.thoughts.memories.TryGainMemory(thought_Memory);
-
-                    ingester.mindState.lastHumanMeatIngestedTick = Find.TickManager.TicksGame;
-                    Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.AteHumanMeat, ingester.Named(HistoryEventArgsNames.Doer)), canApplySelfTookThoughts: false);
-                    
-                }
+                ingester.mindState.lastHumanMeatIngestedTick = Find.TickManager.TicksGame;
+                Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.AteHumanMeat, ingester.Named(HistoryEventArgsNames.Doer)), canApplySelfTookThoughts: true);
             }
-
-
-
-
         }
+    }
 
-        public static bool IdeoNotCannibal(Pawn pawn)
+    [HarmonyPatch(typeof(FoodUtility))]
+    [HarmonyPatch("AddThoughtsFromIdeo")]
+    public static class VanillaRacesExpandedFungoid_FoodUtility_AddThoughtsFromIdeo_Patch
+    {
+
+        [HarmonyPrefix]
+        public static bool DisableNonCannibalFoodThought(HistoryEventDef eventDef, Pawn ingester, ThingDef foodDef)
         {
-            
-            foreach(PreceptDef precept in listOfPrecepts)
+            if (foodDef.IsFungus && ingester.genes?.HasGene(InternalDefOf.VRE_FungalFlesh) == true && eventDef == HistoryEventDefOf.AteNonCannibalFood)
             {
-                if (pawn.Ideo.HasPrecept(precept))
-                {
-                    return false;
-                }
-
+                return false;
             }
             return true;
-
         }
     }
 
@@ -76,7 +56,9 @@ namespace VanillaRacesExpandedFungoid
 
 
 
-
-
 }
+
+
+
+
 
