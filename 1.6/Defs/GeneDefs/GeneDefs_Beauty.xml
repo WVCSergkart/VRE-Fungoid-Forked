@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneBeautyBase">
+		<defName>VRE_Repulsive</defName>
+		<label>repulsive</label>
+		<description>Carriers of this gene have twisted, unnatural, terrifying looks. They barely resemble humans. Any social interactions with them make people sick.</description>
+		<iconPath>UI/Icons/Genes/Gene_Repulsive</iconPath>
+		<displayOrderInCategory>-100</displayOrderInCategory>
+		<statOffsets>
+			<PawnBeauty>-3</PawnBeauty>
+		</statOffsets>
+		<biostatMet>4</biostatMet>
+	</GeneDef>
+</Defs>

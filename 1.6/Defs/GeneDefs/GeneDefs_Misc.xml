@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_FungalFlesh</defName>
+		<label>fungal flesh</label>
+		<labelShortAdj>fungal</labelShortAdj>
+		<description>Carriers of this gene have fungal matter in their flesh. Consuming any fungus by them is classed as cannibalism.</description>
+		<iconPath>UI/Icons/Genes/Gene_FungalFlesh</iconPath>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+	<GeneDef>
+		<defName>VRE_Telepathy</defName>
+		<label>telepathy</label>
+		<labelShortAdj>telepath</labelShortAdj>
+		<description>Carriers of this gene can communicate with other carriers of this gene via psychic telepathy. Proximity is not required for social interactions.</description>
+		<iconPath>UI/Icons/Genes/Gene_Telepathy</iconPath>
+		<displayCategory>Psychic</displayCategory>
+		<displayOrderInCategory>5000</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+</Defs>

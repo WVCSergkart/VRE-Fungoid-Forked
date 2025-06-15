@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+  <MentalStateDef ParentName="BaseMentalState">
+    <defName>VRE_SelectiveBerserk</defName>
+    <stateClass>VanillaRacesExpandedFungoid.MentalState_SelectiveBerserk</stateClass>
+    <label>mindless rage</label>
+	<minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+    <category>Aggro</category>
+    <nameColor>(0.9,0.2,0.5)</nameColor>
+    <beginLetter>{0} is raging!</beginLetter>
+    <recoveryMessage>{0}'s rage has come to an end.</recoveryMessage>
+    <baseInspectLine>Raging</baseInspectLine>
+    <recoverFromSleep>false</recoverFromSleep>
+    <recoverFromDowned>false</recoverFromDowned>
+    <recoverFromCollapsingExhausted>false</recoverFromCollapsingExhausted>
+  </MentalStateDef>
+
+ 
+
+</Defs>
