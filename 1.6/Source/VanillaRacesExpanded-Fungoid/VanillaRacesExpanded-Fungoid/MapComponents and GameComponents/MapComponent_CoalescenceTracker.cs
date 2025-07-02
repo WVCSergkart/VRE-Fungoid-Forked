@@ -99,7 +99,7 @@ namespace VanillaRacesExpandedFungoid
         public List<Thought> GetAllThoughts(Pawn pawn)
         {
             List<Thought> outThoughts = new List<Thought>();
-            pawn.needs.mood.thoughts.GetAllMoodThoughts(outThoughts);
+            pawn.needs?.mood?.thoughts?.GetAllMoodThoughts(outThoughts);
             return outThoughts;
         }
 
