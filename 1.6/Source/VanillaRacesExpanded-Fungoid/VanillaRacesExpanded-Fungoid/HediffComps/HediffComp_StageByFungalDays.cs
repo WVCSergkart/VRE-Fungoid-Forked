@@ -21,14 +21,12 @@ namespace VanillaRacesExpandedFungoid
             }
         }
 
-     
 
-
-        public override void CompPostTick(ref float severityAdjustment)
+        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
-            base.CompPostTick(ref severityAdjustment);
+            base.CompPostTickInterval(ref severityAdjustment, delta);
 
-            if (this.parent.pawn.IsHashIntervalTick(tickCounter))
+            if (this.parent.pawn.IsHashIntervalTick(tickCounter, delta))
             {
                 tickCounter = 60000;
 

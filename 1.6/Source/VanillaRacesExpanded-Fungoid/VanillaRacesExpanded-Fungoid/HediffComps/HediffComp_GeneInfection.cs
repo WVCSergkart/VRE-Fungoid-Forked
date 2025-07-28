@@ -36,9 +36,9 @@ namespace VanillaRacesExpandedFungoid
 
         }
 
-        public override void CompPostTick(ref float severityAdjustment)
+        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
-            base.CompPostTick(ref severityAdjustment);
+            base.CompPostTickInterval(ref severityAdjustment, delta);
 
             if (parent.Severity > 0.99f)
             {
@@ -56,24 +56,27 @@ namespace VanillaRacesExpandedFungoid
                     InternalDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(parent.pawn.Position, parent.pawn.Map, false));
                 }
 
-                List<Gene> geneListBackup = (from x in parent.pawn.genes.GenesListForReading
-                                            where x.def.exclusionTags?.Contains("HairStyle")==false
-                                             select x).ToList();
-   
-                parent.pawn.genes?.SetXenotype(XenotypeDefOf.Baseliner);
-
-                foreach (Gene gene in geneListBackup)
+                if (parent.pawn.genes != null)
                 {
-                    parent.pawn.genes.AddGene(gene.def, false);
+                    List<Gene> geneListBackup = (from x in parent.pawn.genes.GenesListForReading
+                        where x.def.exclusionTags?.Contains("HairStyle")==false
+                        select x).ToList();
 
-                }
-  
-                parent.pawn.genes.xenotypeName = xenotypeName;
-                parent.pawn.genes.iconDef = iconDef;
-         
-                foreach (GeneDef geneDef in xenogenes)
-                {
-                    parent.pawn.genes.AddGene(geneDef, true);
+                    parent.pawn.genes.SetXenotype(XenotypeDefOf.Baseliner);
+
+                    foreach (Gene gene in geneListBackup)
+                    {
+                        parent.pawn.genes.AddGene(gene.def, false);
+
+                    }
+      
+                    parent.pawn.genes.xenotypeName = xenotypeName;
+                    parent.pawn.genes.iconDef = iconDef;
+             
+                    foreach (GeneDef geneDef in xenogenes)
+                    {
+                        parent.pawn.genes.AddGene(geneDef, true);
+                    }
                 }
 
                 parent.pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);

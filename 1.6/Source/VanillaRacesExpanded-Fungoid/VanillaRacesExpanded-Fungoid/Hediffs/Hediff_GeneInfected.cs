@@ -20,11 +20,11 @@ namespace VanillaRacesExpandedFungoid
             base.ExposeData();
         }
 
-        public override void Tick()
+        public override void TickInterval(int delta)
         {
-            base.Tick();
+            base.TickInterval(delta);
 
-            if (this.pawn.IsHashIntervalTick(60000))
+            if (this.pawn.IsHashIntervalTick(60000, delta))
             {
                 infectionCounterInDays++;
             }

@@ -25,16 +25,16 @@ namespace VanillaRacesExpandedFungoid
             base.ExposeData();
         }
 
-        protected override void Tick()
+        protected override void TickInterval(int delta)
         {
 
 
-            if (this.IsHashIntervalTick(60) && this.Map != null)
+            if (this.IsHashIntervalTick(60, delta) && this.Map != null)
             {
 
                 GasUtility.AddGas(this.Position - new IntVec3(0, 0, -2), this.Map, GasType.RotStink, 2000);
             }
-            base.Tick();
+            base.TickInterval(delta);
         }
 
         public override void PostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
