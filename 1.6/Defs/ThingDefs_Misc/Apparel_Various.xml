@@ -24,7 +24,8 @@
 		<recipeMaker Inherit="False" />
 		<equippedStatOffsets>
 			<MoveSpeed>-0.35</MoveSpeed>
-			 <Flammability>-1</Flammability>
+      <Flammability>-1</Flammability>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
