@@ -1,10 +1,9 @@
-
 using Verse;
 using System;
 using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
-
+using VEF.CacheClearing;
 
 namespace VanillaRacesExpandedFungoid
 {
@@ -12,10 +11,14 @@ namespace VanillaRacesExpandedFungoid
 	public static class StaticCollectionsClass
 	{
 
+        static StaticCollectionsClass()
+        {
+            ClearCaches.clearCacheTypes.Add(typeof(StaticCollectionsClass));
+       
+        }
 
-		
-		// A list of pawns and xenotypes with the mind coalescence gene
-		public static Dictionary<Pawn, XenotypeDef> pawns_and_xenotypes = new Dictionary<Pawn, XenotypeDef>();
+        // A list of pawns and xenotypes with the mind coalescence gene
+        public static Dictionary<Pawn, XenotypeDef> pawns_and_xenotypes = new Dictionary<Pawn, XenotypeDef>();
 
 		// A list of xenotypes and average mood
 		public static Dictionary<XenotypeDef, float> xenotypesAndMood = new Dictionary<XenotypeDef, float>();

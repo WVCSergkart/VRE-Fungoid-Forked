@@ -8,6 +8,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -40,6 +41,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 		<isBad>false</isBad>
 		<comps>
