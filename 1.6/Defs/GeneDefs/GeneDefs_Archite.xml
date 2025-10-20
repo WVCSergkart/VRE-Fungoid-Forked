@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GeneDef>
-		<defName>VRE_MindCoalescence</defName>
-		<label>mind coalescence</label>
-		<labelShortAdj>coalescent</labelShortAdj>
-		<description>Carriers of this gene have a psychic connection to other carriers, allowing them to share some of the emotions with them. A portion of average happiness gets shared with mind coalescent individuals. Due to that, they also all share mental states and suffer them at the same time.</description>
-		<iconPath>UI/Icons/Genes/Gene_MindCoalescence</iconPath>
-		<displayCategory>Archite</displayCategory>
-		<displayOrderInCategory>5000</displayOrderInCategory>
-		<biostatCpx>4</biostatCpx>
-		<biostatArc>1</biostatArc>
-		<biostatMet>0</biostatMet>
-		<customEffectDescriptions>
-			<li>This effect is updated twice a day ingame, to avoid lag.</li>
-		</customEffectDescriptions>
-	</GeneDef>
+	<!-- <GeneDef> -->
+		<!-- <defName>VRE_MindCoalescence</defName> -->
+		<!-- <label>mind coalescence</label> -->
+		<!-- <labelShortAdj>coalescent</labelShortAdj> -->
+		<!-- <description>Carriers of this gene have a psychic connection to other carriers, allowing them to share some of the emotions with them. A portion of average happiness gets shared with mind coalescent individuals. Due to that, they also all share mental states and suffer them at the same time.</description> -->
+		<!-- <iconPath>UI/Icons/Genes/Gene_MindCoalescence</iconPath> -->
+		<!-- <displayCategory>Archite</displayCategory> -->
+		<!-- <displayOrderInCategory>5000</displayOrderInCategory> -->
+		<!-- <biostatCpx>4</biostatCpx> -->
+		<!-- <biostatArc>1</biostatArc> -->
+		<!-- <biostatMet>0</biostatMet> -->
+		<!-- <customEffectDescriptions> -->
+			<!-- <li>This effect is updated twice a day ingame, to avoid lag.</li> -->
+		<!-- </customEffectDescriptions> -->
+	<!-- </GeneDef> -->
 	
 	<GeneDef>
 		<defName>VRE_GeneInfector</defName>

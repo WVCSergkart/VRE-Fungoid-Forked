@@ -1,9 +1,7 @@
 <ModMetaData>
-	<name>Vanilla Races Expanded - Fungoid</name>
-	<author>Oskar Potocki, Sarg Bjornson</author>
+	<name>VRE - Fungoid Forked</name>
+	<author>Oskar Potocki, Sarg Bjornson. Fork: Sergkart</author>
 	<supportedVersions>
-		<li>1.4</li>
-		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
@@ -24,21 +22,23 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
+		<li>
+			<packageId>wvc.sergkart.races.biotech</packageId>
+			<displayName>WVC - Xenotypes and Genes</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2886992038</steamWorkshopUrl>
+			<downloadUrl>https://github.com/WVCSergkart/WVC_RacesBiotech</downloadUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
-	<packageId>vanillaracesexpanded.fungoid</packageId>
-	<description>Vanilla Races Expanded is a brand new series of mods to enhance Biotech features, add to the storytelling and the world-building of RimWorld, and to introduce new, cool types of xenohumans, complete with their own unique genes, behaviors, mechanics and items.
+	<incompatibleWith>
+		<li>vanillaracesexpanded.fungoid</li>
+	</incompatibleWith>
+	<packageId>vanillaracesexpanded.fungoid.forked</packageId>
+	<description>Fork with integration with WVC - Xenotypes and Genes mod. This version differs from the original by some removed mechanics and changes made to the code.
 
-The Fungoids are a new archite-dependent rare xenotype, inspired by the eerie depictions of zombies but with a distinctive RimWorld twist. Initially capable of rational thought, these genetically-engineered beings gradually lose their mental sharpness while their physical prowess escalates.
+Note that this version is not compatible with the original and mods that are based on or depend on it.
 
-Delve into the lore of Fungoids, initially conceived as a military project to combat the Insectoid menace. Explore a vast array of unique genes! Immerse in the genetic diversity with new genes like Mind Coalescence, Gene Infector, Fungal Crest, and many more, each with unique effects and mechanics.
-
-Experience the suspense and danger of the new Ship Part Crash event, where a fungoid ship crashes, unleashing a potential threat upon your colony.
-
-The mod is laden with new items, mechanics, and a detailed narrative on how the fungoids interact with the world, their infection abilities, and their evolving physical and mental attributes.
-
-Embark on a journey of genetic exploration and face the ancient threats that lurk within the cosmos. Watch as your favourite colonists turn into mutated fungal monstrosities, as they slowly succumb to husks of their former self.
-</description>
+It is recommended to play with the original mod first, as this fork has strong gameplay differences from the original.</description>
 </ModMetaData>

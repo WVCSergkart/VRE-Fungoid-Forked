@@ -9,19 +9,19 @@
 		<inheritable>false</inheritable>
 		<genes>
 			
-			<li>VRE_MindCoalescence</li>
+			<li>WVC_Hivemind_Mood</li>
 			<li>VRE_GeneInfector</li>
 			<li>Deathless</li>
 			
 			<li>VRE_FungalFlesh</li>			
 			<li>VRE_ExtremeSkillLoss</li>
 			<li>VRE_SkillDegradation</li>
-			<li>VRE_NoStudy</li>
-			<li>VRE_Repulsive</li>
+			<li>WVC_NoLearning</li>
+			<li>WVC_MechaAI_SoftwareMoving</li>
 			<li>VRE_FungalArmor</li>
 			<li>VRE_FungalRegeneration</li>
 			<li>VRE_RotBlood</li>
-			<li>VRE_Telepathy</li>
+			<li>WVC_Hivemind_Telepathy</li>
 			<li Name="AlphaGenesSwapFungoid">VRE_TotalAntirotLungs</li>
 			<li>Immunity_SuperStrong</li>
 			<li>Superclotting</li>
@@ -36,8 +36,7 @@
 			<li>VRE_DeadVoice</li>
 			<li>Hair_Grayless</li>
 			<li>VRE_HairMushroom</li>
-	
-			
+
 		</genes>
 	</XenotypeDef>
 </Defs>

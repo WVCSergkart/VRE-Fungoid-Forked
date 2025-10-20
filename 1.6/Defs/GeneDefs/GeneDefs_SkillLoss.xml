@@ -99,20 +99,20 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
-	<GeneDef>
-		<defName>VRE_NoStudy</defName>
-		<label>no study</label>
-		<description>Carriers of this gene are incapable of learning new skills.</description>
-		<exclusionTags>
-			<li>Learning</li>
-		</exclusionTags>
-		<iconPath>UI/Icons/Genes/Gene_NoStudy</iconPath>
-		<displayCategory>VRE_SkillLoss</displayCategory>
-		<displayOrderInCategory>5005</displayOrderInCategory>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>4</biostatMet>
-		<statFactors>
-			<GlobalLearningFactor>0</GlobalLearningFactor>
-		</statFactors>
-	</GeneDef>
+	<!-- <GeneDef> -->
+		<!-- <defName>VRE_NoStudy</defName> -->
+		<!-- <label>no study</label> -->
+		<!-- <description>Carriers of this gene are incapable of learning new skills.</description> -->
+		<!-- <exclusionTags> -->
+			<!-- <li>Learning</li> -->
+		<!-- </exclusionTags> -->
+		<!-- <iconPath>UI/Icons/Genes/Gene_NoStudy</iconPath> -->
+		<!-- <displayCategory>VRE_SkillLoss</displayCategory> -->
+		<!-- <displayOrderInCategory>5005</displayOrderInCategory> -->
+		<!-- <biostatCpx>1</biostatCpx> -->
+		<!-- <biostatMet>4</biostatMet> -->
+		<!-- <statFactors> -->
+			<!-- <GlobalLearningFactor>0</GlobalLearningFactor> -->
+		<!-- </statFactors> -->
+	<!-- </GeneDef> -->
 </Defs>
