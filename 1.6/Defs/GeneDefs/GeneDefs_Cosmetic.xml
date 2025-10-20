@@ -37,7 +37,7 @@
 		<rotDrawMode>Fresh, Rotting</rotDrawMode>
 		<colorType>Skin</colorType>
 		<skipFlag>Hair</skipFlag>
-		<baseLayer>62</baseLayer>
+		<baseLayer>64</baseLayer>
 		<drawSize>1</drawSize>
 		<!-- <tagDef>Head</tagDef> -->
 		<parentTagDef>Head</parentTagDef>
