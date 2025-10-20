@@ -31,6 +31,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>wvc.sergkart.races.biotech</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>vanillaracesexpanded.fungoid</li>
