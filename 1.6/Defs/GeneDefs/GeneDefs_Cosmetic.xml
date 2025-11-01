@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <GeneDef>
+  <GeneDef ParentName="GeneHairStyleBase">
 	<defName>VRE_FungalCrest</defName>
 	<label>fungal crest</label>
 	<description>Carriers of this gene grow a large, colorful fungal crest protruding from the top of their head.</description>
@@ -11,12 +11,12 @@
 	<selectionWeight>0.0012</selectionWeight>
 	<displayCategory>WVC_Cosmetic</displayCategory>
 	<displayOrderInCategory>7</displayOrderInCategory>
-	<!-- <hairTagFilter> -->
-		<!-- <whitelist>true</whitelist> -->
-		<!-- <tags> -->
-			<!-- <li>Bald</li> -->
-		<!-- </tags> -->
-	<!-- </hairTagFilter> -->
+	<hairTagFilter>
+		<whitelist>true</whitelist>
+		<tags>
+			<li>Bald</li>
+		</tags>
+	</hairTagFilter>
 	<renderNodeProperties>
 	  <li>
 		<nodeClass>WVC_XenotypesAndGenes.PawnRenderNode_FungoidHair</nodeClass>
