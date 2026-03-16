@@ -1,0 +1,119 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 628768506
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8048064674661b8b1f3ad6c8a68a1f16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9805626a0a960da8f69a56443df5de53
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 354b9ffb2cb4c789d3a84dc855a55ac8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Chanterelle_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Medical/VRE_RotBleeding.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Flammulina_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Male_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Thin_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Flammulina_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B03.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Wounds/VRE_RotWoundFleshA.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B13.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Pain/Dead_Voice_Pain_B03.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Death/Dead_Voice_Death_B02.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Morels_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_FungalRegeneration.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_SkillLossNone.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B01.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B08.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Boletus_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Death/Dead_Voice_Death_B03.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_FungalFlesh.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Hydnum_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B04.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Agaricus_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cyclocybe_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Boletus_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Wounds/VRE_RotWoundFleshB.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Death/Dead_Voice_Death_B01.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Redcap_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Xenotypes/Fungoid.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Female_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Redcap_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Fat_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B10.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_GeneInfector.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cyclocybe_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Flammulina_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Pain/Dead_Voice_Pain_B08.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Hulk_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_PartialAntiRotLungs.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_SkillLossMinor.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B05.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_SkillLossExtreme.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/FungoidShip_Loop_1a_01.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Fat_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B09.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Hulk_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Portabella_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_Rotblood.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Boletus_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Hydnum_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B02.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B11.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cordyceps_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B07.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cordyceps_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Redcap_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_FungalCrest.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Chanterelle_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Death/Dead_Voice_Death_B04.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Female_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Hydnum_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_FungalArmor.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_SkillDegradation.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Fat_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_VoiceDead.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cyclocybe_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Morels_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Male_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Chanterelle_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Portabella_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Agaricus_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Matsutake_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Female_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Matsutake_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B14.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Matsutake_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Pain/Dead_Voice_Pain_B05.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Hulk_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_FungalColors.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_SkillLossSevere.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Male_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Pain/Dead_Voice_Pain_B04.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Agaricus_north.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B06.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Pain/Dead_Voice_Pain_B02.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Wounds/VRE_RotWoundFleshC.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Cordyceps_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Thin_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Call/Dead_Voice_Call_B12.ogg
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Morels_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Hairstyles/Portabella_south.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Pawn/Humanlike/Apparel/AncientAstrosuit/AncientAstrosuit_Thin_east.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/UI/Icons/Genes/Gene_TotalAntiRotLungs.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Textures/Things/Building/FungoidShipCrashed/FungoidShipCrashed.png
+- Assets/Data/vanillaracesexpanded.fungoid.forked/Sounds/DeadVoice/Death/Dead_Voice_Death_B05.ogg
+Dependencies: []
