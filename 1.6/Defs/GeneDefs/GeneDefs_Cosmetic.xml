@@ -87,4 +87,46 @@
 	</modExtensions>
   </GeneDef>
 
+  <!-- Gene-Hair Defs -->
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Morels</defName>
+	<texPath>Things/Pawn/Hairstyles/Morels</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Matsutake</defName>
+	<texPath>Things/Pawn/Hairstyles/Matsutake</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Hydnum</defName>
+	<texPath>Things/Pawn/Hairstyles/Hydnum</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Flammulina</defName>
+	<texPath>Things/Pawn/Hairstyles/Flammulina</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Cyclocybe</defName>
+	<texPath>Things/Pawn/Hairstyles/Cyclocybe</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Chanterelle</defName>
+	<texPath>Things/Pawn/Hairstyles/Chanterelle</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Boletus</defName>
+	<texPath>Things/Pawn/Hairstyles/Boletus</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Agaricus</defName>
+	<texPath>Things/Pawn/Hairstyles/Agaricus</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Portabella</defName>
+	<texPath>Things/Pawn/Hairstyles/Portabella</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.FungiHairDef>
+	<defName>WVC_Redcap</defName>
+	<texPath>Things/Pawn/Hairstyles/Redcap</texPath>
+  </WVC_XenotypesAndGenes.FungiHairDef>
+
 </Defs>
