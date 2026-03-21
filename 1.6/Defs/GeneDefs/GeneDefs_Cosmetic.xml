@@ -88,45 +88,49 @@
   </GeneDef>
 
   <!-- Gene-Hair Defs -->
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef Name="WVC_Fungoids_StyleGeneDef_Base" Abstract="True" >
+	<uniqueStyleId>1000001</uniqueStyleId>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Morels</defName>
 	<texPath>Things/Pawn/Hairstyles/Morels</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Matsutake</defName>
 	<texPath>Things/Pawn/Hairstyles/Matsutake</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Hydnum</defName>
 	<texPath>Things/Pawn/Hairstyles/Hydnum</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Flammulina</defName>
 	<texPath>Things/Pawn/Hairstyles/Flammulina</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Cyclocybe</defName>
 	<texPath>Things/Pawn/Hairstyles/Cyclocybe</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Chanterelle</defName>
 	<texPath>Things/Pawn/Hairstyles/Chanterelle</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Boletus</defName>
 	<texPath>Things/Pawn/Hairstyles/Boletus</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Agaricus</defName>
 	<texPath>Things/Pawn/Hairstyles/Agaricus</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Portabella</defName>
 	<texPath>Things/Pawn/Hairstyles/Portabella</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
-  <WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
 	<defName>WVC_Redcap</defName>
 	<texPath>Things/Pawn/Hairstyles/Redcap</texPath>
-  </WVC_XenotypesAndGenes.FungiHairDef>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
 
 </Defs>
