@@ -21,7 +21,8 @@
 		<li>VRE_ExtremeSkillLoss</li>
 		<li>VRE_SkillDegradation</li>
 		<li>WVC_NoLearning</li>
-		<li>WVC_MechaAI_SoftwareMoving</li>
+		<!-- <li>WVC_MechaAI_SoftwareMoving</li> -->
+		<li>WVC_Beauty_AbominationallyUgly</li>
 		<li>VRE_FungalArmor</li>
 		<li>VRE_FungalRegeneration</li>
 		<li>VRE_RotBlood</li>
