@@ -42,6 +42,10 @@ namespace VanillaRacesExpandedFungoid
         {
             if (parent.Severity > 0.99f)
             {
+                if (xenotypeHolder == null)
+                {
+                    xenotypeHolder = new(ListsUtility.GetAllXenotypesHolders().RandomElement());
+				}
 				Pawn pawn = parent.pawn;
 				if (pawn.Map != null)
                 {
@@ -68,15 +72,16 @@ namespace VanillaRacesExpandedFungoid
                 //        parent.pawn.genes.AddGene(gene.def, false);
 
                 //    }
-      
+
                 //    parent.pawn.genes.xenotypeName = xenotypeName;
                 //    parent.pawn.genes.iconDef = iconDef;
-             
+
                 //    foreach (GeneDef geneDef in xenogenes)
                 //    {
                 //        parent.pawn.genes.AddGene(geneDef, true);
                 //    }
                 //}
+                xenotypeHolder.inheritable = false;
                 ReimplanterUtility.ConvertXenogenesToEndogenes(pawn);
                 ReimplanterUtility.SetXenotype(pawn, xenotypeHolder);
                 pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
