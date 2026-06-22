@@ -13,9 +13,11 @@ namespace VanillaRacesExpandedFungoid
     {
 
 
-        //public List<GeneDef> xenogenes = new List<GeneDef>();
-        //public string xenotypeName;
-        //public XenotypeIconDef iconDef;
+		//public List<GeneDef> xenogenes = new List<GeneDef>();
+		//public string xenotypeName;
+		//public XenotypeIconDef iconDef;
+
+		public override bool CompShouldRemove => xenotypeHolder == null;
 
         public XenotypeHolder_Exposable xenotypeHolder;
 
@@ -43,15 +45,16 @@ namespace VanillaRacesExpandedFungoid
 				Pawn pawn = parent.pawn;
 				if (pawn.Map != null)
                 {
-                    for (int i = 0; i < 20; i++)
-                    {
-                        IntVec3 c;
-                        CellFinder.TryFindRandomReachableCellNearPosition(pawn.Position, pawn.Position, pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                    //for (int i = 0; i < 20; i++)
+                    //{
+                    //    IntVec3 c;
+                    //    CellFinder.TryFindRandomReachableCellNearPosition(pawn.Position, pawn.Position, pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
 
-                        FilthMaker.TryMakeFilth(c, pawn.Map, ThingDefOf.Filth_Slime);
-                    }
-                    InternalDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
-                }
+                    //    FilthMaker.TryMakeFilth(c, pawn.Map, ThingDefOf.Filth_Slime);
+                    //}
+                    //InternalDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
+					EffectsUtility.DoShapeshiftEffects_OnPawn(pawn);
+				}
                 //if (parent.pawn.genes != null)
                 //{
                 //    List<Gene> geneListBackup = (from x in parent.pawn.genes.GenesListForReading
@@ -76,7 +79,7 @@ namespace VanillaRacesExpandedFungoid
                 //}
                 ReimplanterUtility.ConvertXenogenesToEndogenes(pawn);
                 ReimplanterUtility.SetXenotype(pawn, xenotypeHolder);
-                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
+                //pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
                 pawn.health.RemoveHediff(parent);
                 //parent.pawn.health.hediffSet.hediffs.Remove(parent);
             }
