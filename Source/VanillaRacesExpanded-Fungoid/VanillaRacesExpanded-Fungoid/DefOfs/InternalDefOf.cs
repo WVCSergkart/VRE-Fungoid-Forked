@@ -36,7 +36,7 @@ namespace VanillaRacesExpandedFungoid
 
 
         public static HediffDef VRE_GeneInfection;
-        //public static HediffDef VRE_GeneInfected;
+        public static HediffDef VRE_GeneInfected;
 
         [MayRequireIdeology]
         public static PreceptDef Cannibalism_Acceptable;

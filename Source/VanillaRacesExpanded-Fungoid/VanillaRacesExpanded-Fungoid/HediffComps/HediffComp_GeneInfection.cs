@@ -79,7 +79,7 @@ namespace VanillaRacesExpandedFungoid
                 //}
                 ReimplanterUtility.ConvertXenogenesToEndogenes(pawn);
                 ReimplanterUtility.SetXenotype(pawn, xenotypeHolder);
-                //pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
+                pawn.health.AddHediff(InternalDefOf.VRE_GeneInfected);
                 pawn.health.RemoveHediff(parent);
                 //parent.pawn.health.hediffSet.hediffs.Remove(parent);
             }
