@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <IncidentDef>
+    <defName>VRE_FungoidShipPartCrash</defName>
+    <label>ship part crash (fungoid)</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>VanillaRacesExpandedFungoid.IncidentWorker_FungoidShipPart</workerClass>
+    <letterLabel>Fungoid ship</letterLabel>
+    <letterText>A large piece of an ancient ship has crashed nearby.\n\nYour colonists have heard the stories of the dawn of space exploration and all the ancient vessels that went missing in outer space. Judging by the markings, it must be one of those vessels. They can hear scratching and growling emanating from the inside.\n\nDestroy it as soon as possible. But beware - something may emerge when you open fire at the ship.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+    <baseChance>0.5</baseChance>
+    
+    <minRefireDays>30</minRefireDays>
+    <tags>
+      <li>FungoidShip</li>
+    </tags>
+    <refireCheckTags>
+      <li>FungoidShip</li>
+    </refireCheckTags>
+    <category>ThreatBig</category>
+  
+    <mechClusterBuilding>VRE_FungoidShipPart</mechClusterBuilding>
+    <tale>ShipPartCrash</tale>
+  </IncidentDef>
+
+  
+
+</Defs>

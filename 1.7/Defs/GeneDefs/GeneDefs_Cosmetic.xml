@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GeneHairStyleBase">
+	<defName>VRE_FungalCrest</defName>
+	<label>fungal crest</label>
+	<description>Carriers of this gene grow a large, colorful fungal crest protruding from the top of their head.</description>
+	<iconPath>UI/Icons/Genes/Gene_FungalCrest</iconPath>
+	<geneClass>WVC_XenotypesAndGenes.Gene_FungoidHair</geneClass>
+	<iconColor>(0.75, 0.75, 0.75)</iconColor>
+	<selectionWeight>0.0012</selectionWeight>
+	<displayCategory>WVC_Cosmetic</displayCategory>
+	<displayOrderInCategory>7</displayOrderInCategory>
+	<hairTagFilter>
+		<whitelist>true</whitelist>
+		<tags>
+			<li>Bald</li>
+		</tags>
+	</hairTagFilter>
+	<renderNodeProperties>
+	  <li>
+		<nodeClass>WVC_XenotypesAndGenes.PawnRenderNode_FungoidHair</nodeClass>
+		<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+		<texPaths>
+		  <li>Things/Pawn/Hairstyles/Morels</li>
+		  <li>Things/Pawn/Hairstyles/Matsutake</li>
+		  <li>Things/Pawn/Hairstyles/Hydnum</li>
+		  <li>Things/Pawn/Hairstyles/Flammulina</li>
+		  <li>Things/Pawn/Hairstyles/Cyclocybe</li>
+		  <li>Things/Pawn/Hairstyles/Cordyceps</li>
+		  <li>Things/Pawn/Hairstyles/Chanterelle</li>
+		  <li>Things/Pawn/Hairstyles/Boletus</li>
+		  <li>Things/Pawn/Hairstyles/Agaricus</li>
+		  <li>Things/Pawn/Hairstyles/Portabella</li>
+		  <li>Things/Pawn/Hairstyles/Redcap</li>
+		</texPaths>
+		<rotDrawMode>Fresh, Rotting</rotDrawMode>
+		<colorType>Skin</colorType>
+		<skipFlag>Hair</skipFlag>
+		<baseLayer>64</baseLayer>
+		<drawSize>1</drawSize>
+		<!-- <tagDef>Head</tagDef> -->
+		<parentTagDef>Head</parentTagDef>
+		<!-- <useSkinShader>true</useSkinShader> -->
+	  </li>
+	</renderNodeProperties>
+	<modExtensions>
+		<li Class="WVC_XenotypesAndGenes.GeneExtension_Giver">
+			<holofaces>
+			  <li>
+				<label>dark tan</label>
+				<color>(170, 151, 125)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>swamp green</label>
+				<color>(88, 107, 93)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>salmon</label>
+				<color>(244, 143, 118)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>wenge</label>
+				<color>(117, 84, 84)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>tumbleweed</label>
+				<color>(219, 166, 124)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>rose taupe</label>
+				<color>(140, 93, 90)</color>
+				<visible>true</visible>
+			  </li>
+			  <li>
+				<label>misty moss</label>
+				<color>(175, 172, 126)</color>
+				<visible>true</visible>
+			  </li>
+			</holofaces>
+		</li>
+	</modExtensions>
+  </GeneDef>
+
+  <!-- Gene-Hair Defs -->
+  <WVC_XenotypesAndGenes.StyleGeneDef Name="WVC_Fungoids_StyleGeneDef_Base" Abstract="True" >
+	<uniqueStyleId>1000001</uniqueStyleId>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Morels</defName>
+	<texPath>Things/Pawn/Hairstyles/Morels</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Matsutake</defName>
+	<texPath>Things/Pawn/Hairstyles/Matsutake</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Hydnum</defName>
+	<texPath>Things/Pawn/Hairstyles/Hydnum</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Flammulina</defName>
+	<texPath>Things/Pawn/Hairstyles/Flammulina</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Cyclocybe</defName>
+	<texPath>Things/Pawn/Hairstyles/Cyclocybe</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Chanterelle</defName>
+	<texPath>Things/Pawn/Hairstyles/Chanterelle</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Boletus</defName>
+	<texPath>Things/Pawn/Hairstyles/Boletus</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Agaricus</defName>
+	<texPath>Things/Pawn/Hairstyles/Agaricus</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Portabella</defName>
+	<texPath>Things/Pawn/Hairstyles/Portabella</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+  <WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Fungoids_StyleGeneDef_Base">
+	<defName>WVC_Redcap</defName>
+	<texPath>Things/Pawn/Hairstyles/Redcap</texPath>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+
+</Defs>
